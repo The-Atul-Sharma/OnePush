@@ -42,12 +42,14 @@ h6.description {
 	#total-portfolio {
 		display: none;
 	}
-	.profile h1 {
+	#title {
 		float: right;
+		width: 200px;
 	}
-	.profile h2 {
+	#tag {
 		float: right;
-		margin-bottom: -50px;
+		width: 200px;
+		margin-top: -60px;
 	}
 	#personImage {
 		width: 140px;
@@ -59,12 +61,13 @@ h6.description {
 	#total-portfolio {
 		display: none;
 	}
-	.profile h1 {
+	#title {
 		float: right;
+		width: 100px;
 	}
-	.profile h2 {
+	#tag {
 		float: right;
-		margin-bottom -50px;
+		width: 100px;
 	}
 	#personImage {
 		width: 140px;
