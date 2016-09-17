@@ -1,5 +1,5 @@
 .navbar-brand {
-    margin-left: 20%;
+    margin-left: 15%;
 }
 .team {
     padding: 75px 0;
@@ -32,5 +32,35 @@ h6.description {
     margin-left: -50px;
     width: 100px;
     height: 100px;
+}
+.total-portfolio {
+	float: right;
+}
+#personImage {
+	width: 200px;
+	height: 200px;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 770px){
+ 	.navbar-brand {
+ 		margin-left: 5%;
+ 	}
+}
+
+@media only screen and (max-width: 770px) {
+	.navbar-brand {
+		margin-left: 0;
+	}
+	.profile h1 {
+		float: right;
+	}
+	.profile h2 {
+		float: right;
+		margin-top: -80px;
+	}
+	#personImage {
+		width: 140px;
+		height: 140px;
+	}
 }
 ​

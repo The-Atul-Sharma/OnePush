@@ -8,6 +8,7 @@ app.controller('dataCtrl', function($scope, $http) {
     $http.get("https://hackerearth.0x10.info/api/one-push?type=json&query=list_websites")
         .then(function(response) {
             $scope.personList = response.data.websites;
+            $scope.noOfSites = response.data.websites.length;
             $scope.loading = false;
         }, function(response) {
             //Second function handles error
