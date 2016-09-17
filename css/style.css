@@ -38,17 +38,33 @@ h6.description {
 	height: 200px;
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 770px) and (min-width: 400px){
 	.total-portfolio {
 		display: none;
 	}
 	.profile h1 {
 		float: right;
-		font-size: 15px;
 	}
 	.profile h2 {
 		float: right;
-		margin-top: -80px;
+		margin-bottom -50px;
+	}
+	#personImage {
+		width: 140px;
+		height: 140px;
+	}
+}
+​
+@media only screen and (max-width: 400px){
+	.total-portfolio {
+		display: none;
+	}
+	.profile h1 {
+		float: right;
+	}
+	.profile h2 {
+		float: right;
+		margin-bottom -50px;
 	}
 	#personImage {
 		width: 140px;
