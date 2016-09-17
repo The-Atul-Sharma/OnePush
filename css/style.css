@@ -39,7 +39,7 @@ h6.description {
 }
 
 @media only screen and (max-width: 770px) and (min-width: 400px){
-	.total-portfolio {
+	#total-portfolio {
 		display: none;
 	}
 	.profile h1 {
@@ -47,7 +47,7 @@ h6.description {
 	}
 	.profile h2 {
 		float: right;
-		margin-bottom -50px;
+		margin-bottom: -50px;
 	}
 	#personImage {
 		width: 140px;
@@ -56,7 +56,7 @@ h6.description {
 }
 ​
 @media only screen and (max-width: 400px){
-	.total-portfolio {
+	#total-portfolio {
 		display: none;
 	}
 	.profile h1 {
